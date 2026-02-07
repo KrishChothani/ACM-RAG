@@ -31,6 +31,11 @@ HealthAI Assistant is a sophisticated AI-powered healthcare analysis platform th
 - 🔐 **Secure Authentication** - JWT-based user management
 - 📱 **Responsive Design** - Works seamlessly across all devices
 
+## Multimodal RAG Pipeline
+We implemented a multimodal RAG pipeline to handle both text and images in healthcare documents.  
+Text is chunked and embedded directly, while images and charts bypass OCR and are first interpreted using Gemini Vision to generate semantic descriptions.  
+These descriptions are then chunked, embedded, and stored in Pinecone for accurate retrieval and context-aware response generation.
+
 ## 🏗️ Architecture
 
 ```mermaid
@@ -447,19 +452,19 @@ Update your production environment variables with:
 ### Run Frontend Tests
 ```bash
 cd Frontend
-npm run test
+npm run dev
 ```
 
 ### Run Backend Tests
 ```bash
 cd Node-Backend
-npm run test
+npm run dev
 ```
 
 ### Run Python Tests
 ```bash
 cd Python-Backend
-pytest
+uvicorn app.main:app --reload
 ```
 
 ## 📊 Monitoring & Analytics
@@ -499,11 +504,14 @@ This project is licensed under the ISC License - see the [LICENSE](LICENSE) file
 - Cloud architecture
 - UI/UX design
 
-## 🆘 Support
+By 
+- 23BCE151 - KRISH CHOTHANI
+- 23BEI048 - PARAM SHANKAR
+<img width="1856" height="1042" alt="image" src="https://github.com/user-attachments/assets/3bffb756-d0f9-4b12-a176-cb0af5c50cb8" />
+<img width="772" height="710" alt="image" src="https://github.com/user-attachments/assets/4301f539-1060-4097-b855-b0ce303520a3" />
+<img width="1913" height="978" alt="image" src="https://github.com/user-attachments/assets/3d4e2001-2648-4640-b867-72a08c911092" />
 
-For support and questions:
 
-- 📧 Email: support@healthai.com
-- 💬 Discord: [Join our community](https://discord.gg/healthai)
-- 📖 Documentation: [docs.healthai.com](https://docs.healthai.com)
-- 🐛 Issues: [GitHub Issues](https://github.com/KrishChothani/HealthAI-Assistant/issues)
+
+
+
