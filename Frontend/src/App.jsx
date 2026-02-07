@@ -431,7 +431,7 @@ function App() {
               <Menu className="w-6 h-6" />
             </button>
             <h1 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent hidden sm:block">
-              CKsFinBot
+              HealthCare Assistant
             </h1>
           </div>
 

@@ -26,46 +26,46 @@ const WelcomeScreen = ({ feature, onExampleClick, onFeatureSelect }) => {
       description: "Intelligent conversations with text and image support",
       color: "from-blue-500 to-cyan-500",
       examples: [
-        "Explain the concept of compound interest",
-        "What are the key financial ratios to analyze?",
-        "How do I calculate ROI for my investment?",
-        "Compare different investment strategies"
+        "Explain common medical symptoms and conditions",
+        "What are the key health indicators to monitor?",
+        "How do I maintain a healthy lifestyle?",
+        "Compare different treatment approaches"
       ]
     },
     Document_Analysis: {
       icon: FileText,
       title: "Document Analysis",
-      description: "Deep analysis of financial documents and reports",
+      description: "Deep analysis of medical records and health reports",
       color: "from-green-500 to-emerald-500",
       examples: [
-        "Analyze this quarterly earnings report",
-        "Summarize key insights from this financial statement",
-        "What are the main risks mentioned in this document?",
-        "Extract financial metrics from this report"
+        "Analyze this medical test report",
+        "Summarize key insights from this health record",
+        "What are the main health concerns mentioned in this document?",
+        "Extract vital signs and metrics from this report"
       ]
     },
     Analytical_Insights: {
       icon: TrendingUp,
       title: "Analytical Insights",
-      description: "Advanced financial calculations and trend analysis",
+      description: "Advanced health analytics and wellness trend analysis",
       color: "from-purple-500 to-pink-500",
       examples: [
-        "Calculate the debt-to-equity ratio trends",
-        "Analyze revenue growth patterns",
-        "What's the company's profitability trend?",
-        "Compare performance metrics year-over-year"
+        "Track my vital signs trends over time",
+        "Analyze my health improvement patterns",
+        "What's my overall wellness trend?",
+        "Compare my health metrics month-over-month"
       ]
     },
     General_Conversation: {
       icon: MessageSquare,
       title: "General Conversation",
-      description: "Casual finance discussions and Q&A",
+      description: "Casual health discussions and Q&A",
       color: "from-orange-500 to-red-500",
       examples: [
-        "What's the difference between stocks and bonds?",
-        "Explain cryptocurrency in simple terms",
-        "How does inflation affect my savings?",
-        "What are some basic budgeting tips?"
+        "What's the difference between bacteria and viruses?",
+        "Explain blood pressure in simple terms",
+        "How does exercise affect my overall health?",
+        "What are some basic wellness tips?"
       ]
     },
     Multi_Document_Search: {
@@ -89,26 +89,26 @@ const WelcomeScreen = ({ feature, onExampleClick, onFeatureSelect }) => {
     {
       icon: Upload,
       title: "Upload Documents",
-      description: "Analyze financial reports, statements, and more",
+      description: "Analyze medical reports, lab results, and more",
       action: () => document.querySelector('input[type="file"]')?.click()
     },
     {
       icon: BarChart3,
-      title: "Financial Analysis",
-      description: "Get insights from your financial data",
-      action: () => onExampleClick("Analyze my company's financial performance")
+      title: "Health Analysis",
+      description: "Get insights from your health data",
+      action: () => onExampleClick("Analyze my overall health and wellness")
     },
     {
       icon: Calculator,
-      title: "Calculate Ratios",
-      description: "Compute important financial ratios",
-      action: () => onExampleClick("Calculate key financial ratios")
+      title: "Health Metrics",
+      description: "Track important health indicators",
+      action: () => onExampleClick("Show my key health metrics")
     },
     {
       icon: PieChart,
-      title: "Market Insights",
-      description: "Understand market trends and opportunities",
-      action: () => onExampleClick("What are the current market trends?")
+      title: "Wellness Insights",
+      description: "Understand health trends and recommendations",
+      action: () => onExampleClick("What are the current wellness recommendations?")
     }
   ];
 
@@ -128,11 +128,11 @@ const WelcomeScreen = ({ feature, onExampleClick, onFeatureSelect }) => {
         </div>
         
         <h1 className="text-4xl font-bold bg-gradient-to-r from-blue-400 to-cyan-400 bg-clip-text text-transparent mb-4">
-          Welcome to CKsFinBot
+          Welcome to HealthCare Assistant
         </h1>
         
         <p className="text-xl text-gray-300 mb-2">
-          Your AI-powered financial analysis assistant
+          Your AI-powered health and wellness assistant
         </p>
         
         <div className="flex items-center justify-center gap-2 text-sm text-gray-400">

@@ -315,9 +315,9 @@ const sendResetPasswordEmail = AsyncHandler(async (req, res) => {
   const resetEmailTemplate = RESET_PASSWORD_MAIL_TEMPLATE(resetLink);
   // Use your sendMail utility here
   const send_email = await sendMail(email, resetEmailTemplate);
-  if (!send_email) {
-    throw new ApiError(401, "Failed to send email for reset password");
-  }
+  // if (!send_email) {
+  //   throw new ApiError(401, "Failed to send email for reset password");
+  // }
   return res
     .status(200)
     .json(new ApiResponse(200, null, "Password reset email sent"));

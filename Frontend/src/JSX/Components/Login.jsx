@@ -44,7 +44,7 @@ const Login = () => {
       <div className="relative z-20 flex flex-col items-center w-full">
         <div className="mb-8">
           {/* KEY CHANGE: Updated logo alt text */}
-          <img src="/logo1.png" alt="CKsFinBot Logo" className="h-20 w-auto" />
+          <img src="/logo1.png" alt="HealthCare Assistant Logo" className="h-20 w-auto" />
         </div>
 
         <div className="w-full max-w-md p-8 space-y-8 bg-black/30 backdrop-blur-lg rounded-2xl shadow-lg border border-blue-500/30 shadow-blue-500/10">
@@ -54,7 +54,7 @@ const Login = () => {
             </h2>
             {/* KEY CHANGE: Updated tagline for CKsFinBot */}
             <p className="mt-2 text-sm text-slate-400">
-              Sign in to access your financial AI assistant.
+              Sign in to access your health and wellness AI assistant.
             </p>
           </div>
 

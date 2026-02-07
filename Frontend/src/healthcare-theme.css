@@ -1,0 +1,353 @@
+/* Healthcare Assistant - Minimal Color Theme */
+/* This file overrides the color palette across the entire application */
+/* Theme: Soft, calming healthcare colors with high contrast for accessibility */
+
+:root {
+  /* Primary Healthcare Colors - Soft Teal/Cyan */
+  --hc-primary-50: #e0f7fa;
+  --hc-primary-100: #b2ebf2;
+  --hc-primary-200: #80deea;
+  --hc-primary-300: #4dd0e1;
+  --hc-primary-400: #26c6da;
+  --hc-primary-500: #00bcd4;
+  --hc-primary-600: #00acc1;
+  --hc-primary-700: #0097a7;
+  --hc-primary-800: #00838f;
+  --hc-primary-900: #006064;
+
+  /* Secondary Healthcare Colors - Soft Green (healing, health) */
+  --hc-secondary-50: #e8f5e9;
+  --hc-secondary-100: #c8e6c9;
+  --hc-secondary-200: #a5d6a7;
+  --hc-secondary-300: #81c784;
+  --hc-secondary-400: #66bb6a;
+  --hc-secondary-500: #4caf50;
+  --hc-secondary-600: #43a047;
+  --hc-secondary-700: #388e3c;
+  --hc-secondary-800: #2e7d32;
+  --hc-secondary-900: #1b5e20;
+
+  /* Neutral Colors - Soft grays with slight warm tint */
+  --hc-neutral-50: #fafafa;
+  --hc-neutral-100: #f5f5f5;
+  --hc-neutral-200: #eeeeee;
+  --hc-neutral-300: #e0e0e0;
+  --hc-neutral-400: #bdbdbd;
+  --hc-neutral-500: #9e9e9e;
+  --hc-neutral-600: #757575;
+  --hc-neutral-700: #616161;
+  --hc-neutral-800: #424242;
+  --hc-neutral-900: #212121;
+
+  /* Background Colors for Dark Mode */
+  --hc-bg-primary: #0a0e1a;
+  --hc-bg-secondary: #111827;
+  --hc-bg-tertiary: #1a2332;
+  --hc-bg-card: #1e293b;
+  --hc-bg-hover: #2d3748;
+
+  /* Text Colors */
+  --hc-text-primary: #f8fafc;
+  --hc-text-secondary: #cbd5e1;
+  --hc-text-muted: #94a3b8;
+  --hc-text-disabled: #64748b;
+
+  /* Status Colors - Healthcare appropriate */
+  --hc-success: #4caf50;
+  --hc-warning: #ff9800;
+  --hc-error: #ef5350;
+  --hc-info: #00bcd4;
+
+  /* Accent Colors */
+  --hc-accent-primary: #26c6da;
+  --hc-accent-secondary: #66bb6a;
+}
+
+/* Override Tailwind Blue Colors with Healthcare Teal */
+.bg-blue-50 { background-color: var(--hc-primary-50) !important; }
+.bg-blue-100 { background-color: var(--hc-primary-100) !important; }
+.bg-blue-200 { background-color: var(--hc-primary-200) !important; }
+.bg-blue-300 { background-color: var(--hc-primary-300) !important; }
+.bg-blue-400 { background-color: var(--hc-primary-400) !important; }
+.bg-blue-500 { background-color: var(--hc-primary-500) !important; }
+.bg-blue-600 { background-color: var(--hc-primary-600) !important; }
+.bg-blue-700 { background-color: var(--hc-primary-700) !important; }
+.bg-blue-800 { background-color: var(--hc-primary-800) !important; }
+.bg-blue-900 { background-color: var(--hc-primary-900) !important; }
+
+.text-blue-50 { color: var(--hc-primary-50) !important; }
+.text-blue-100 { color: var(--hc-primary-100) !important; }
+.text-blue-200 { color: var(--hc-primary-200) !important; }
+.text-blue-300 { color: var(--hc-primary-300) !important; }
+.text-blue-400 { color: var(--hc-primary-400) !important; }
+.text-blue-500 { color: var(--hc-primary-500) !important; }
+.text-blue-600 { color: var(--hc-primary-600) !important; }
+.text-blue-700 { color: var(--hc-primary-700) !important; }
+.text-blue-800 { color: var(--hc-primary-800) !important; }
+.text-blue-900 { color: var(--hc-primary-900) !important; }
+
+.border-blue-50 { border-color: var(--hc-primary-50) !important; }
+.border-blue-100 { border-color: var(--hc-primary-100) !important; }
+.border-blue-200 { border-color: var(--hc-primary-200) !important; }
+.border-blue-300 { border-color: var(--hc-primary-300) !important; }
+.border-blue-400 { border-color: var(--hc-primary-400) !important; }
+.border-blue-500 { border-color: var(--hc-primary-500) !important; }
+.border-blue-600 { border-color: var(--hc-primary-600) !important; }
+.border-blue-700 { border-color: var(--hc-primary-700) !important; }
+.border-blue-800 { border-color: var(--hc-primary-800) !important; }
+.border-blue-900 { border-color: var(--hc-primary-900) !important; }
+
+/* Override Cyan Colors */
+.bg-cyan-50 { background-color: var(--hc-primary-50) !important; }
+.bg-cyan-100 { background-color: var(--hc-primary-100) !important; }
+.bg-cyan-200 { background-color: var(--hc-primary-200) !important; }
+.bg-cyan-300 { background-color: var(--hc-primary-300) !important; }
+.bg-cyan-400 { background-color: var(--hc-primary-400) !important; }
+.bg-cyan-500 { background-color: var(--hc-primary-500) !important; }
+.bg-cyan-600 { background-color: var(--hc-primary-600) !important; }
+.bg-cyan-700 { background-color: var(--hc-primary-700) !important; }
+.bg-cyan-800 { background-color: var(--hc-primary-800) !important; }
+.bg-cyan-900 { background-color: var(--hc-primary-900) !important; }
+
+.text-cyan-50 { color: var(--hc-primary-50) !important; }
+.text-cyan-100 { color: var(--hc-primary-100) !important; }
+.text-cyan-200 { color: var(--hc-primary-200) !important; }
+.text-cyan-300 { color: var(--hc-primary-300) !important; }
+.text-cyan-400 { color: var(--hc-primary-400) !important; }
+.text-cyan-500 { color: var(--hc-primary-500) !important; }
+.text-cyan-600 { color: var(--hc-primary-600) !important; }
+.text-cyan-700 { color: var(--hc-primary-700) !important; }
+.text-cyan-800 { color: var(--hc-primary-800) !important; }
+.text-cyan-900 { color: var(--hc-primary-900) !important; }
+
+/* Override Green Colors with Healthcare Green */
+.bg-green-50 { background-color: var(--hc-secondary-50) !important; }
+.bg-green-100 { background-color: var(--hc-secondary-100) !important; }
+.bg-green-200 { background-color: var(--hc-secondary-200) !important; }
+.bg-green-300 { background-color: var(--hc-secondary-300) !important; }
+.bg-green-400 { background-color: var(--hc-secondary-400) !important; }
+.bg-green-500 { background-color: var(--hc-secondary-500) !important; }
+.bg-green-600 { background-color: var(--hc-secondary-600) !important; }
+.bg-green-700 { background-color: var(--hc-secondary-700) !important; }
+.bg-green-800 { background-color: var(--hc-secondary-800) !important; }
+.bg-green-900 { background-color: var(--hc-secondary-900) !important; }
+
+.text-green-50 { color: var(--hc-secondary-50) !important; }
+.text-green-100 { color: var(--hc-secondary-100) !important; }
+.text-green-200 { color: var(--hc-secondary-200) !important; }
+.text-green-300 { color: var(--hc-secondary-300) !important; }
+.text-green-400 { color: var(--hc-secondary-400) !important; }
+.text-green-500 { color: var(--hc-secondary-500) !important; }
+.text-green-600 { color: var(--hc-secondary-600) !important; }
+.text-green-700 { color: var(--hc-secondary-700) !important; }
+.text-green-800 { color: var(--hc-secondary-800) !important; }
+.text-green-900 { color: var(--hc-secondary-900) !important; }
+
+.border-green-50 { border-color: var(--hc-secondary-50) !important; }
+.border-green-100 { border-color: var(--hc-secondary-100) !important; }
+.border-green-200 { border-color: var(--hc-secondary-200) !important; }
+.border-green-300 { border-color: var(--hc-secondary-300) !important; }
+.border-green-400 { border-color: var(--hc-secondary-400) !important; }
+.border-green-500 { border-color: var(--hc-secondary-500) !important; }
+.border-green-600 { border-color: var(--hc-secondary-600) !important; }
+.border-green-700 { border-color: var(--hc-secondary-700) !important; }
+.border-green-800 { border-color: var(--hc-secondary-800) !important; }
+.border-green-900 { border-color: var(--hc-secondary-900) !important; }
+
+/* Override Emerald Colors */
+.bg-emerald-50 { background-color: var(--hc-secondary-50) !important; }
+.bg-emerald-100 { background-color: var(--hc-secondary-100) !important; }
+.bg-emerald-200 { background-color: var(--hc-secondary-200) !important; }
+.bg-emerald-300 { background-color: var(--hc-secondary-300) !important; }
+.bg-emerald-400 { background-color: var(--hc-secondary-400) !important; }
+.bg-emerald-500 { background-color: var(--hc-secondary-500) !important; }
+.bg-emerald-600 { background-color: var(--hc-secondary-600) !important; }
+.bg-emerald-700 { background-color: var(--hc-secondary-700) !important; }
+.bg-emerald-800 { background-color: var(--hc-secondary-800) !important; }
+.bg-emerald-900 { background-color: var(--hc-secondary-900) !important; }
+
+.text-emerald-50 { color: var(--hc-secondary-50) !important; }
+.text-emerald-100 { color: var(--hc-secondary-100) !important; }
+.text-emerald-200 { color: var(--hc-secondary-200) !important; }
+.text-emerald-300 { color: var(--hc-secondary-300) !important; }
+.text-emerald-400 { color: var(--hc-secondary-400) !important; }
+.text-emerald-500 { color: var(--hc-secondary-500) !important; }
+.text-emerald-600 { color: var(--hc-secondary-600) !important; }
+.text-emerald-700 { color: var(--hc-secondary-700) !important; }
+.text-emerald-800 { color: var(--hc-secondary-800) !important; }
+.text-emerald-900 { color: var(--hc-secondary-900) !important; }
+
+/* Override Gray Colors with Softer Neutrals */
+.bg-gray-50 { background-color: var(--hc-neutral-50) !important; }
+.bg-gray-100 { background-color: var(--hc-neutral-100) !important; }
+.bg-gray-200 { background-color: var(--hc-neutral-200) !important; }
+.bg-gray-300 { background-color: var(--hc-neutral-300) !important; }
+.bg-gray-400 { background-color: var(--hc-neutral-400) !important; }
+.bg-gray-500 { background-color: var(--hc-neutral-500) !important; }
+.bg-gray-600 { background-color: var(--hc-neutral-600) !important; }
+.bg-gray-700 { background-color: var(--hc-bg-hover) !important; }
+.bg-gray-800 { background-color: var(--hc-bg-card) !important; }
+.bg-gray-900 { background-color: var(--hc-bg-tertiary) !important; }
+.bg-gray-950 { background-color: var(--hc-bg-secondary) !important; }
+
+.text-gray-50 { color: var(--hc-neutral-50) !important; }
+.text-gray-100 { color: var(--hc-neutral-100) !important; }
+.text-gray-200 { color: var(--hc-text-primary) !important; }
+.text-gray-300 { color: var(--hc-text-secondary) !important; }
+.text-gray-400 { color: var(--hc-text-muted) !important; }
+.text-gray-500 { color: var(--hc-text-disabled) !important; }
+.text-gray-600 { color: var(--hc-neutral-600) !important; }
+.text-gray-700 { color: var(--hc-neutral-700) !important; }
+.text-gray-800 { color: var(--hc-neutral-800) !important; }
+.text-gray-900 { color: var(--hc-neutral-900) !important; }
+
+.border-gray-300 { border-color: rgba(148, 163, 184, 0.2) !important; }
+.border-gray-400 { border-color: rgba(148, 163, 184, 0.3) !important; }
+.border-gray-500 { border-color: rgba(148, 163, 184, 0.4) !important; }
+.border-gray-600 { border-color: rgba(148, 163, 184, 0.5) !important; }
+.border-gray-700 { border-color: rgba(148, 163, 184, 0.6) !important; }
+.border-gray-800 { border-color: rgba(148, 163, 184, 0.3) !important; }
+
+/* Override Slate Colors */
+.bg-slate-50 { background-color: var(--hc-neutral-50) !important; }
+.bg-slate-100 { background-color: var(--hc-neutral-100) !important; }
+.bg-slate-200 { background-color: var(--hc-neutral-200) !important; }
+.bg-slate-300 { background-color: var(--hc-neutral-300) !important; }
+.bg-slate-400 { background-color: var(--hc-neutral-400) !important; }
+.bg-slate-500 { background-color: var(--hc-neutral-500) !important; }
+.bg-slate-600 { background-color: var(--hc-neutral-600) !important; }
+.bg-slate-700 { background-color: var(--hc-neutral-700) !important; }
+.bg-slate-800 { background-color: var(--hc-neutral-800) !important; }
+.bg-slate-900 { background-color: var(--hc-neutral-900) !important; }
+
+.text-slate-50 { color: var(--hc-neutral-50) !important; }
+.text-slate-100 { color: var(--hc-neutral-100) !important; }
+.text-slate-200 { color: var(--hc-text-primary) !important; }
+.text-slate-300 { color: var(--hc-text-secondary) !important; }
+.text-slate-400 { color: var(--hc-text-muted) !important; }
+.text-slate-500 { color: var(--hc-text-disabled) !important; }
+.text-slate-600 { color: var(--hc-neutral-600) !important; }
+.text-slate-700 { color: var(--hc-neutral-700) !important; }
+.text-slate-800 { color: var(--hc-neutral-800) !important; }
+.text-slate-900 { color: var(--hc-neutral-900) !important; }
+
+/* Override Background Colors */
+.bg-black { background-color: var(--hc-bg-primary) !important; }
+
+/* Gradient Overrides */
+.from-blue-400 { --tw-gradient-from: var(--hc-primary-400) !important; }
+.from-blue-500 { --tw-gradient-from: var(--hc-primary-500) !important; }
+.from-blue-600 { --tw-gradient-from: var(--hc-primary-600) !important; }
+
+.to-cyan-400 { --tw-gradient-to: var(--hc-primary-400) !important; }
+.to-cyan-500 { --tw-gradient-to: var(--hc-primary-500) !important; }
+.to-cyan-600 { --tw-gradient-to: var(--hc-primary-600) !important; }
+
+.from-cyan-500 { --tw-gradient-from: var(--hc-primary-500) !important; }
+.to-blue-500 { --tw-gradient-to: var(--hc-primary-500) !important; }
+.to-blue-600 { --tw-gradient-to: var(--hc-primary-600) !important; }
+
+.from-green-500 { --tw-gradient-from: var(--hc-secondary-500) !important; }
+.to-emerald-500 { --tw-gradient-to: var(--hc-secondary-500) !important; }
+
+/* Override Purple/Pink/Orange/Red/Indigo with Healthcare Secondary Colors */
+.from-purple-500,
+.from-indigo-500 { --tw-gradient-from: var(--hc-secondary-600) !important; }
+
+.to-purple-500,
+.to-pink-500 { --tw-gradient-to: var(--hc-secondary-400) !important; }
+
+.from-orange-500 { --tw-gradient-from: var(--hc-warning) !important; }
+.to-red-500 { --tw-gradient-to: var(--hc-error) !important; }
+
+/* Hover State Overrides */
+.hover\:bg-blue-400:hover { background-color: var(--hc-primary-400) !important; }
+.hover\:bg-blue-500:hover { background-color: var(--hc-primary-500) !important; }
+.hover\:bg-blue-600:hover { background-color: var(--hc-primary-600) !important; }
+.hover\:bg-blue-700:hover { background-color: var(--hc-primary-700) !important; }
+
+.hover\:text-blue-400:hover { color: var(--hc-primary-400) !important; }
+.hover\:text-blue-500:hover { color: var(--hc-primary-500) !important; }
+
+.hover\:border-blue-500:hover { border-color: var(--hc-primary-500) !important; }
+
+.hover\:bg-green-600:hover { background-color: var(--hc-secondary-600) !important; }
+.hover\:bg-green-700:hover { background-color: var(--hc-secondary-700) !important; }
+
+.hover\:bg-gray-800:hover { background-color: var(--hc-bg-hover) !important; }
+
+.hover\:text-white:hover { color: var(--hc-text-primary) !important; }
+
+/* Shadow Color Overrides */
+.shadow-blue-500 { --tw-shadow-color: var(--hc-primary-500) !important; }
+.shadow-lg { box-shadow: 0 10px 15px -3px rgba(0, 188, 212, 0.1), 0 4px 6px -4px rgba(0, 188, 212, 0.1) !important; }
+
+/* Canvas Shadow Override for Particles */
+canvas {
+  filter: hue-rotate(15deg) !important;
+}
+
+/* Additional Healthcare-Specific Utilities */
+.hc-card {
+  background-color: var(--hc-bg-card);
+  border: 1px solid rgba(148, 163, 184, 0.2);
+  border-radius: 0.75rem;
+}
+
+.hc-card-hover:hover {
+  background-color: var(--hc-bg-hover);
+  border-color: var(--hc-primary-500);
+}
+
+.hc-text-primary {
+  color: var(--hc-text-primary);
+}
+
+.hc-text-secondary {
+  color: var(--hc-text-secondary);
+}
+
+.hc-text-muted {
+  color: var(--hc-text-muted);
+}
+
+/* Accessibility - Ensure High Contrast */
+.hc-focus-visible:focus-visible {
+  outline: 2px solid var(--hc-primary-400);
+  outline-offset: 2px;
+}
+
+/* Status Badges */
+.hc-badge-success {
+  background-color: rgba(76, 175, 80, 0.2);
+  color: var(--hc-success);
+}
+
+.hc-badge-warning {
+  background-color: rgba(255, 152, 0, 0.2);
+  color: var(--hc-warning);
+}
+
+.hc-badge-error {
+  background-color: rgba(239, 83, 80, 0.2);
+  color: var(--hc-error);
+}
+
+.hc-badge-info {
+  background-color: rgba(0, 188, 212, 0.2);
+  color: var(--hc-info);
+}
+
+/* Animation Color Override */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

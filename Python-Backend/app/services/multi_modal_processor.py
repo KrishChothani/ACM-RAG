@@ -42,7 +42,7 @@ def get_image_caption(image_bytes: bytes, llm: ChatGoogleGenerativeAI) -> str:
         )
         
         caption = msg.content if msg.content else "Description could not be generated for the image."
-        print(f"✅ Image caption generated: {caption[:100]}...")
+        print(f"✅ Image caption generated: {caption[:105]}...")
         return caption
         
     except Exception as e:

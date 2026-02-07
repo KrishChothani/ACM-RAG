@@ -181,11 +181,11 @@ function EmailVerification() {
             {/* KEY CHANGE: Updated branding */}
             <img
               src={"/logo.png"}
-              alt="CKsFinBot Logo"
+              alt="HealthCare Assistant Logo"
               className="w-16 h-16 mx-auto rounded-2xl shadow-lg"
             />
           </div>
-          <h1 className="text-2xl font-bold text-white mt-4 mb-2">CKsFinBot</h1>
+          <h1 className="text-2xl font-bold text-white mt-4 mb-2">HealthCare Assistant</h1>
           <p className="text-slate-400 text-sm">Email Verification</p>
         </div>
 
@@ -213,7 +213,7 @@ function EmailVerification() {
               className="w-full bg-gradient-to-r from-blue-500 to-cyan-500 hover:from-blue-600 hover:to-cyan-600 text-white font-semibold py-4 px-6 rounded-2xl transition-all duration-300 transform hover:scale-[1.02] flex items-center justify-center group"
               onClick={() => navigate("/app")}
             >
-              Continue to FinBot
+              Continue to HealthCare Assistant
               <ArrowRight className="ml-2 w-5 h-5 transform group-hover:translate-x-1 transition-transform" />
             </button>
           )}

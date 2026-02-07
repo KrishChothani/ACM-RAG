@@ -431,7 +431,7 @@ async def get_answer_from_rag(question: str, chat_history: list, pinecone_namesp
     
     # Format chat history once
     formatted_history = format_chat_history(chat_history)
-
+    print(formatted_history)
     # Router logic to select and execute the correct pipeline
     if feature_mode == "Smart_Chat":
         return await smart_chat_pipeline(llm, embeddings, question, formatted_history, pinecone_namespaces)

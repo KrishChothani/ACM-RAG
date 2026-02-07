@@ -134,12 +134,12 @@ const LandingPage = () => {
               <div className="w-11 h-11 rounded-xl flex items-center justify-center shadow-lg shadow-blue-500/50 overflow-hidden">
                 <img
                   src="/logo.jpg"
-                  alt="CKsFinBot Logo"
+                  alt="HealthCare Assistant Logo"
                   className="w-full h-full object-cover"
                 />
               </div>
               <span className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                CKsFinBot
+                HealthCare Assistant
               </span>
             </div>
 
@@ -213,22 +213,22 @@ const LandingPage = () => {
             <div className="inline-flex items-center space-x-2 bg-blue-500/10 border border-blue-500/30 rounded-full px-5 py-2 mb-8 backdrop-blur-sm">
               <Sparkles className="w-4 h-4 text-blue-400 animate-pulse" />
               <span className="text-sm text-blue-400 font-semibold">
-                AI-Powered Financial Intelligence
+                AI-Powered Health Intelligence
               </span>
             </div>
 
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
               Ask Questions.
               <span className="block mt-2 bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                Understand Financial Reports
+                Understand Health Reports
               </span>
               <span className="block mt-2">Instantly.</span>
             </h1>
 
             <p className="text-lg sm:text-xl text-gray-300 mb-10 max-w-3xl mx-auto leading-relaxed">
-              Upload quarterly or yearly financial documents and get insights,
-              summaries, and answers powered by AI. Transform complex financial
-              data into actionable intelligence in seconds.
+              Upload medical reports and lab results, and get insights,
+              summaries, and answers powered by AI. Transform complex health
+              data into actionable wellness information in seconds.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -282,7 +282,7 @@ const LandingPage = () => {
               </span>
             </h2>
             <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-              Everything you need to analyze financial documents with AI
+              Everything you need to analyze health documents with AI
               precision
             </p>
           </div>
@@ -292,25 +292,25 @@ const LandingPage = () => {
               {
                 icon: <Database className="w-8 h-8" />,
                 title: "Auto Extract Metrics",
-                desc: "Automatically identify and extract key financial metrics from any document format with high precision.",
+                desc: "Automatically identify and extract key health metrics from any document format with high precision.",
                 color: "from-blue-500 to-cyan-600",
               },
               {
                 icon: <FileText className="w-8 h-8" />,
                 title: "Smart Summaries",
-                desc: "Generate comprehensive summaries of quarterly and yearly reports in seconds using advanced NLP.",
+                desc: "Generate comprehensive summaries of medical and lab reports in seconds using advanced NLP.",
                 color: "from-cyan-500 to-blue-600",
               },
               {
                 icon: <BarChart3 className="w-8 h-8" />,
                 title: "Compare & Analyze",
-                desc: "Compare performance across quarters and benchmark against industry peers with detailed insights.",
+                desc: "Compare health metrics over time and benchmark against wellness standards with detailed insights.",
                 color: "from-blue-500 to-cyan-500",
               },
               {
                 icon: <Zap className="w-8 h-8" />,
                 title: "AI Predictions",
-                desc: "Leverage machine learning for trend analysis, forecasting, and forward-looking financial insights.",
+                desc: "Leverage machine learning for health trend analysis, forecasting, and personalized wellness insights.",
                 color: "from-cyan-500 to-blue-500",
               },
             ].map((feature, idx) => (
@@ -344,7 +344,7 @@ const LandingPage = () => {
                 </span>
               </h2>
               <p className="text-gray-300 text-lg">
-                Experience the power of AI-driven financial analysis
+                Experience the power of AI-driven health analysis
               </p>
             </div>
 
@@ -353,7 +353,7 @@ const LandingPage = () => {
                 <div className="flex justify-end">
                   <div className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-6 py-3 rounded-2xl rounded-br-sm max-w-md shadow-lg">
                     <p className="text-sm">
-                      What was the revenue growth in Q4 2024?
+                      What were my latest blood test results?
                     </p>
                   </div>
                 </div>
@@ -366,11 +366,11 @@ const LandingPage = () => {
                       </div>
                       <div>
                         <p className="text-sm leading-relaxed">
-                          Based on the Q4 2024 financial report, revenue grew by{" "}
-                          <span className="font-bold text-cyan-400">23.5%</span>{" "}
-                          year-over-year, reaching{" "}
-                          <span className="font-bold text-blue-400">$542M</span>
-                          . This represents the strongest quarter in company
+                          Based on your recent lab report, your{" "}
+                          <span className="font-bold text-cyan-400">cholesterol levels</span>{" "}
+                          have improved by{" "}
+                          <span className="font-bold text-blue-400">15%</span>
+                          . This represents significant progress in your wellness
                           history.
                         </p>
                       </div>
@@ -382,7 +382,7 @@ const LandingPage = () => {
                   <div className="flex items-center space-x-3 bg-gray-800/70 backdrop-blur-sm border border-gray-700 rounded-xl px-4 py-3">
                     <input
                       type="text"
-                      placeholder="Ask a question about your financial data..."
+                      placeholder="Ask a question about your health data..."
                       className="flex-1 bg-transparent text-gray-300 placeholder-gray-500 outline-none"
                       disabled
                     />
@@ -405,7 +405,7 @@ const LandingPage = () => {
                 onClick={() => navigateTo("Product")}
                 className="bg-gradient-to-r from-blue-500 to-cyan-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:shadow-blue-500/60 transition-all duration-300 transform hover:scale-105"
               >
-                Try CKsFinBot Now
+                Try HealthCare Assistant Now
               </button>
             </div>
           </div>
@@ -418,12 +418,12 @@ const LandingPage = () => {
               <div className="w-10 h-10 rounded-xl flex items-center justify-center shadow-lg overflow-hidden">
                 <img
                   src="/logo.jpg"
-                  alt="CKsFinBot Logo"
+                  alt="HealthCare Assistant Logo"
                   className="w-full h-full object-cover"
                 />
               </div>
               <span className="text-2xl font-bold bg-gradient-to-r from-blue-400 via-cyan-400 to-blue-500 bg-clip-text text-transparent">
-                CKsFinBot
+                HealthCare Assistant
               </span>
             </div>
 
@@ -455,7 +455,7 @@ const LandingPage = () => {
             </div>
 
             <p className="text-sm text-gray-500">
-              © 2025 CKsFinBot. All rights reserved.
+              © 2025 HealthCare Assistant. All rights reserved.
             </p>
           </div>
         </footer>

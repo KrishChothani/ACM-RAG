@@ -19,9 +19,8 @@ except Exception as e:
     embedding_model = None
 
 try:
-    # Using Gemini 2.0 Flash Lite as the primary LLM
     llm_model = ChatGoogleGenerativeAI(
-        model="gemini-2.0-flash", 
+        model="gemini-2.5-pro", 
         temperature=0, 
         google_api_key=settings.GOOGLE_API_KEY, 
         convert_system_message_to_human=True
